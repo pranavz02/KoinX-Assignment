@@ -83,7 +83,6 @@ const conversion = asyncHandler(async (req, res) => {
 
 // Fetch a list of companies based on the provided currency
 const companyList = asyncHandler(async (req, res) => {
-    console.log(req.body)
     try {
         const { currency } = req.body
 
