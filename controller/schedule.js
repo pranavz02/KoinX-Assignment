@@ -21,7 +21,7 @@ const scheduler = asyncHandler(async (req, res) => {
             console.log('No new coins');
         }
     } catch (error) {
-        console.error('Error in scheduler:', error);
+        console.error('Error in scheduler');
     }
 })
 
